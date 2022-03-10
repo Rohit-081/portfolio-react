@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="nav-container">
         <a href="/" className="navbar-logo">
           <h4 className="folio">
-            FO<span>LIO.</span>
+            PORT<span>FOLIO.</span>
           </h4>
         </a>
         <ul className="nav-menu">
