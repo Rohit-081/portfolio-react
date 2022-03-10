@@ -45,13 +45,13 @@ function ServicePage() {
             </span>
             <h1>Services, tools and Git</h1>
             <p>
-              <span class="small-title">Task Manager: </span>Jira, Google
+              <span className="small-title">Task Manager: </span>Jira, Google
               Analytics, Firebase
             </p>
             <br />
             <p>
-              <span class="small-title">Git Control: </span>Github, Bitbucket,
-              Ubuntu, GIT, Bash
+              <span className="small-title">Git Control: </span>Github,
+              Bitbucket, Ubuntu, GIT, Bash
             </p>
           </div>
           <div className="inner-service">
@@ -67,8 +67,8 @@ function ServicePage() {
             </span>
             <h1>Culture Fit</h1>
             <p>
-              <span class="small-title">Soft Skills:</span> Good Communication,
-              Team Work, Self-Motivated, Problem Solver,
+              <span className="small-title">Soft Skills:</span> Good
+              Communication, Team Work, Self-Motivated, Problem Solver,
               <br />
               <br />
               Time Management, Adaptability, Fast Learner, Optimistic
