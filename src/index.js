@@ -7,12 +7,12 @@ import GlobalStyle from "./styles/GlobalStyles";
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <GlobalStyle />
-    <BrowserRouter>
+  <BrowserRouter>
+    <React.StrictMode>
+      <GlobalStyle />
       <App />
-    </BrowserRouter>
-  </React.StrictMode>,
+    </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById("root")
 );
 

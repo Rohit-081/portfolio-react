@@ -27,17 +27,20 @@ function AboutPage() {
           </div>
 
           <div className="about-intro" data-aos="fade-down">
-            <h3 className="content-title">PASSIONATE ENGINEER</h3>
+            <h3 className="content-title">SENIOR ENGINEER</h3>
             <p className="text">
-              From the moment I produced "Hello World" in the console of my
-              first application, I knew I was hooked into the world of software
-              development. But software development has never been "just a job"
-              for me, it's offered an engaging challenge to continually learn
-              and improve in my skills in creating high-quality applications and
-              software. What started with a simple "Hello World" has become a
-              full-fledged passion that only gets more exciting and fun as the
-              years go by. Below you'll find projects I've completed that
-              showcase my skills and general background in developing software.
+              Fueled by high energy levels and boundless enthusiasm, I'm easily
+              inspired and more then willing to follow my fascinations wherever
+              they take me. I'm never satisfied to just come up with ideas.
+              <br />
+              <br />
+              Instead I have an almost impulsive need to act on them. I'm a
+              people-person with deep emotions and empathy, a natural
+              storyteller. I'm able to inspire and am at my best when I'm
+              sharing my creative expressions with others.
+              <br />
+              <br />
+              I am currently working as a Senior Engineer at Brillio.
               <br />
               <br />
               <a href="">Lets make something special</a>

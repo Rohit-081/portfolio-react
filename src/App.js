@@ -4,6 +4,7 @@ import HomePage from "./components/HomeSection/HomePage";
 import AboutPage from "./components/AboutSection/AboutPage";
 import ServicePage from "./components/ServiceSection/ServicePage";
 import ContactPage from "./components/ContactSection/ContactPage";
+import ResumePage from "./components/ResumeSection/ResumePage";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HomePage />
       <AboutPage />
       <ServicePage />
+      <ResumePage />
       <ContactPage />
     </div>
   );

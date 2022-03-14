@@ -11,12 +11,16 @@ function ServicePage() {
   return (
     <ServiceStyled>
       <div className="services">
-        <div className="title" data-aos="fade-up">
+        <div className="title" data-aos="fade-up" data-aos-duration="3500">
           <h1>
             <span>HERE</span> ARE SOME <span>THINGS</span> THAT I DO
           </h1>
         </div>
-        <div className="service-container" data-aos="fade-right">
+        <div
+          className="service-container"
+          data-aos="fade-right"
+          data-aos-duration="3500"
+        >
           <div className="inner-service">
             <span>
               <svg

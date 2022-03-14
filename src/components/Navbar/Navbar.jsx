@@ -1,5 +1,11 @@
 import React from "react";
 import styled from "styled-components";
+import { Routes, Route, Link } from "react-router-dom";
+import HomePage from "../HomeSection/HomePage";
+import AboutPage from "../AboutSection/AboutPage";
+import ServicePage from "../ServiceSection/ServicePage";
+import ContactPage from "../ContactSection/ContactPage";
+import ResumePage from "../ResumeSection/ResumePage";
 
 const Navbar = () => {
   return (
@@ -12,29 +18,29 @@ const Navbar = () => {
         </a>
         <ul className="nav-menu">
           <li className="nav-items">
-            <a className="nav-links" href="/">
+            <Link className="nav-links" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-items">
-            <a className="nav-links" href="/#about">
+            <Link className="nav-links" to="/about">
               About
-            </a>
+            </Link>
           </li>
           <li className="nav-items">
-            <a className="nav-links" href="/#services">
+            <Link className="nav-links" to="/services">
               Services
-            </a>
+            </Link>
           </li>
           <li className="nav-items">
-            <a className="nav-links" href="/#portfolio">
+            <Link className="nav-links" to="/portfolio">
               Portfolio
-            </a>
+            </Link>
           </li>
           <li className="nav-items">
-            <a className="nav-links" href="/#contact">
+            <Link className="nav-links" to="/contact">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
