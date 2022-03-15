@@ -22,7 +22,7 @@ function Resume() {
           title={"Senior Engineer"}
           subTitle={"Brillio"}
           text={
-            "Developing user interface by using the React. Build, Optimize and Enhance the UI performance."
+            "Developing user interface by using the React. Build, optimize and enhance the UI performance."
           }
         />
         <ResumeItem
