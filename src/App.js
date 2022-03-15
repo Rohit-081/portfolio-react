@@ -5,17 +5,30 @@ import AboutPage from "./components/AboutSection/AboutPage";
 import ServicePage from "./components/ServiceSection/ServicePage";
 import ContactPage from "./components/ContactSection/ContactPage";
 import ResumePage from "./components/ResumeSection/ResumePage";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navbar />
-      <HomePage />
-      <AboutPage />
-      <ServicePage />
-      <ResumePage />
-      <ContactPage />
-    </div>
+      <Switch>
+        <Route exact path="/">
+          <HomePage />
+        </Route>
+        <Route exact path="/about">
+          <AboutPage />
+        </Route>
+        <Route exact path="/services">
+          <ServicePage />
+        </Route>
+        <Route exact path="/portfolio">
+          <ResumePage />
+        </Route>
+        <Route exact path="/contact">
+          <ContactPage />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
