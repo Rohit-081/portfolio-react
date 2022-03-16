@@ -1,11 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Routes, Route, Link } from "react-router-dom";
-import HomePage from "../HomeSection/HomePage";
-import AboutPage from "../AboutSection/AboutPage";
-import ServicePage from "../ServiceSection/ServicePage";
-import ContactPage from "../ContactSection/ContactPage";
-import ResumePage from "../ResumeSection/ResumePage";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (

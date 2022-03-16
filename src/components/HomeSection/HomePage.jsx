@@ -2,40 +2,51 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import AboutPage from "../AboutSection/AboutPage";
+import ServicePage from "../ServiceSection/ServicePage";
+import ContactPage from "../ContactSection/ContactPage";
+import ResumePage from "../ResumeSection/ResumePage";
 
 function HomePage() {
   useEffect(() => {
     AOS.init({ duration: 2500 });
   }, []);
   return (
-    <HomePageStyled
-      style={{
-        backgroundImage: "url(" + require("../../images/img-2.jpg") + ")",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
-      <div className="container">
-        <div className="row">
-          <div className="inner_text">
-            <h3 data-aos="fade-left" data-aos-duration="3500">
-              WELCOME TO MY WORLD
-            </h3>
-            <h1 data-aos="fade-up" data-aos-duration="3000">
-              Hi, I'm Rohit Jain
-            </h1>
-            <h1
-              className="special"
-              data-aos="fade-right"
-              data-aos-duration="3000"
-            >
-              React Developer
-            </h1>
+    <>
+      {" "}
+      <HomePageStyled
+        style={{
+          backgroundImage: "url(" + require("../../images/img-2.jpg") + ")",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="inner_text">
+              <h3 data-aos="fade-left" data-aos-duration="3500">
+                WELCOME TO MY WORLD
+              </h3>
+              <h1 data-aos="fade-up" data-aos-duration="3000">
+                Hi, I'm Rohit Jain
+              </h1>
+              <h1
+                className="special"
+                data-aos="fade-right"
+                data-aos-duration="3000"
+              >
+                React Developer
+              </h1>
+            </div>
           </div>
         </div>
-      </div>
-    </HomePageStyled>
+      </HomePageStyled>
+      <AboutPage />
+      <ServicePage />
+      <ResumePage />
+      <ContactPage />
+    </>
   );
 }
 
