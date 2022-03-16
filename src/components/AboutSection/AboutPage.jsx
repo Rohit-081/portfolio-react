@@ -43,7 +43,9 @@ function AboutPage() {
               I am currently working as a Senior Engineer at Brillio.
               <br />
               <br />
-              <a href="">Lets make something special</a>
+              <a href="https://www.linkedin.com/in/jrohit081/">
+                Lets make something special
+              </a>
             </p>
           </div>
         </div>
