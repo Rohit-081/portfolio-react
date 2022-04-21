@@ -9,12 +9,15 @@ function Skills() {
       <Title title={"My Sk"} span={"ills"} />
       <div className="skills">
         <ProgressBar title={"JAVASCRIPT"} width={"75%"} text={"75%"} />
+        <ProgressBar title={"JAVA"} width={"55%"} text={"55%"} />
         <ProgressBar title={"REACT"} width={"70%"} text={"70%"} />
         <ProgressBar title={"REDUX"} width={"60%"} text={"60%"} />
+        <ProgressBar title={"SPRING BOOT"} width={"60%"} text={"60%"} />
         <ProgressBar title={"HTML5"} width={"80%"} text={"80%"} />
         <ProgressBar title={"CSS3"} width={"70%"} text={"70%"} />
         <ProgressBar title={"SASS"} width={"60%"} text={"60%"} />
-        <ProgressBar title={"TYPESCRIPT"} width={"50%"} text={"50%"} />
+        <ProgressBar title={"MONGODB"} width={"70%"} text={"70%"} />
+        <ProgressBar title={"TYPESCRIPT"} width={"60%"} text={"60%"} />
         <ProgressBar title={"LINUX"} width={"70%"} text={"70%"} />
       </div>
     </SkillsStyled>
